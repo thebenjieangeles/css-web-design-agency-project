@@ -12,10 +12,134 @@ body {
 
 h1 {
   font-size: 5rem;
+  display: block;
 }
+
+span {
+  color: midnightblue;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.left {
+  display: inline-block;
+  width: 40%;
+}
+
+.right {
+  display: inline-block;
+  width: 40%;
+}
+
+/* .cards {
+  display: inline-flexbox;
+  width: 50%;
+  gap: 10px;
+} */
 
 footer {
   text-align: right;
   color: midnightblue;
 }
 
+@media (min-width: 319px) and (max-width: 480px) {
+  body {
+    background-color: lightsalmon;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 1rem;
+    display: block;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .tile-image {
+    height: 150px;
+  }
+
+  .left {
+    display: inline;
+  }
+
+  .right {
+    display: inline;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: powderblue;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    display: block;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .tile-image {
+    height: 200px;
+  }
+
+  .left {
+    display: inline-block;
+  }
+
+  .right {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    background-color: limegreen;
+  }
+
+  .logo {
+    width: 250px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    display: block;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+
+  .tile-image {
+    height: 200px;
+  }
+
+  .left {
+    display: inline-block;
+  }
+
+  .right {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1601px) {
+  body {
+    background-color: seagreen;
+  }
+}
